@@ -1,0 +1,35 @@
+body{
+	text-align: center;
+}
+.box{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+.green{
+	background-color: green;
+}
+.brown{
+	background-color: brown;
+}
+.cyan{
+	background-color: cyan;
+}
+.silver{
+	background-color: silver;
+}
+@media only screen and (max-width:600px){
+	.yellow,.cyan{
+		display: none;
+	}
+}
+@media only screen and (min-width::1000px){
+	div.box{
+		width: 100%;
+	}
+}
+.container{
+	height: 200px;
+	width: 200px;
+	background-color: gold;
+}
